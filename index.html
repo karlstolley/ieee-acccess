@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Accessible Semantics Comparison</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+  <h1>Comparing Accessibility Semantics</h1>
+
+  <h2>Image and Caption Presented as <code>&lt;div&gt;</code> Elements</h2>
+  <div class="figure">
+    <img src="image.jpg" alt="An image" />
+    <div class="figcaption">
+      A caption to more fully describe this image in detail.
+    </div>
+  </div>
+
+  <h2>Image and Caption Presented as <code>&lt;figure&gt;/&lt;figcaption&gt;</code> Elements</h2>
+  <figure>
+    <img src="image.jpg" alt="An image" />
+    <figcaption>
+      A caption to more fully describe this image in detail.
+    </figcaption>
+  </figure>
+</body>
+</html>
