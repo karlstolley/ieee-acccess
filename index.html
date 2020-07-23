@@ -7,24 +7,30 @@
   <link rel="stylesheet" href="screen.css" />
 </head>
 <body>
-  <h1>Comparing Accessibility Semantics</h1>
-
-  <h2>Image and Caption Presented as <code>&lt;div&gt;</code> Elements</h2>
-  <div class="figure">
-    <img src="image.jpg" alt="Unboxing a MacBook Pro" />
-    <div class="figcaption">
-      A MacBook Pro in the very earliest stages of unboxing. Here, the top of its box has been
-      removed, revealing the computer still in plastic wrapping from the factory.
-    </div>
-  </div>
-
-  <h2>Image and Caption Presented as <code>&lt;figure&gt;/&lt;figcaption&gt;</code> Elements</h2>
-  <figure>
-    <img src="image.jpg" alt="Unboxing a MacBook Pro" />
-    <figcaption>
-      A MacBook Pro in the very earliest stages of unboxing. Here, the top of its box has been
-      removed, revealing the computer still in plastic wrapping from the factory.
-    </figcaption>
-  </figure>
+  <header>
+    <h1>Comparing Accessibility Semantics</h1>
+  </header>
+  <main>
+    <article>
+      <h2>Image and Caption Presented as <code>&lt;div&gt;</code> Elements</h2>
+      <div class="figure">
+        <img src="image.jpg" alt="Unboxing a MacBook Pro" />
+        <div class="figcaption">
+          A MacBook Pro in the very earliest stages of unboxing. Here, the top of its box has been
+          removed, revealing the computer still in plastic wrapping from the factory.
+        </div>
+      </div>
+    </article>
+    <article>
+      <h2>Image and Caption Presented as <code>&lt;figure&gt;/&lt;figcaption&gt;</code> Elements</h2>
+      <figure>
+        <img src="image.jpg" alt="Unboxing a MacBook Pro" />
+        <figcaption>
+          A MacBook Pro in the very earliest stages of unboxing. Here, the top of its box has been
+          removed, revealing the computer still in plastic wrapping from the factory.
+        </figcaption>
+      </figure>
+    </article>
+  </main>
 </body>
 </html>
